@@ -1,0 +1,255 @@
+body {
+    background-color: black !important;
+    font-family: 'Assistant', sans-serif;
+}
+
+header {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-image: url('../images/kmptoga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 160px 0px 199px;
+
+    .btn-warning {
+        background-color: yellow !important;
+
+
+        &:hover {
+            background-color: #f1c40f !important;
+            color: black !important;
+        }
+    }
+}
+
+.bg-black {
+    background-color: black !important;
+}
+
+.kuning {
+    color: yellow !important;
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0px;
+    ;
+}
+
+.btn-login {
+    background-color: yellow !important;
+    color: black !important;
+
+    &:hover {
+        background-color: #f1c40f !important;
+        color: black !important;
+    }
+}
+
+.font-mont {
+    font-family: 'Montserrat', sans-serif !important;
+    color: black !important;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+.section-popular-content {
+    margin-top: -450px;
+
+    .card-travel {
+        min-height: 251px;
+        min-width: 247px;
+        background-color: white !important;
+        padding: 20px;
+        color: white;
+        background-size: cover;
+        margin-bottom: 20px;
+
+
+        .travel-name-place {
+            font-size: 19px;
+            color: white;
+        }
+
+        .travel-button {
+            .btn-travel-details {
+                background-color: yellow !important;
+                color: gray !important;
+
+                &:hover {
+                    background-color: #f1c40f !important;
+                    color: black !important;
+                }
+            }
+        }
+    }
+
+    .popular-picture {
+        margin-top: -150px;
+    }
+
+}
+
+.section-stats {
+    background-color: white;
+    margin-top: -50px;
+    border-radius: 10px;
+    padding: 10px 10px 10px;
+
+    .btn-cari {
+        width: 150px;
+        background-color: yellow !important;
+
+
+
+        &:hover {
+            background-color: #f1c40f !important;
+            color: black !important;
+        }
+    }
+}
+
+.section-popular {
+    min-height: 660px;
+    padding: 60px 0px 423px;
+
+    .section-popular-heading {
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: white !important;
+        }
+
+        p {
+            color: rgb(201, 201, 201) !important;
+        }
+    }
+}
+
+.section-promotion {
+    min-height: 369px;
+    padding: 79px 0px 94px;
+    background-image: url(../images/promot_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 123px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        color: white !important;
+    }
+
+    p {
+        color: white !important;
+    }
+
+    .btn-help {
+        background-color: #7E7E7E;
+        color: white;
+
+        &:hover {
+            background-color: rgb(48, 48, 48);
+            color: white;
+        }
+    }
+
+    .btn-get-started {
+        background-color: yellow !important;
+        color: #575757 !important;
+        margin-left: 10px;
+
+        &:hover {
+            background-color: #f1c40f !important;
+            color: black !important;
+        }
+    }
+
+}
+
+.section-footer {
+    h5 {
+        color: white;
+        font-size: 24px;
+    }
+
+    li {
+        padding-top: 10px;
+    }
+
+    a {
+        color: white !important;
+        font-size: 12px;
+    }
+
+    .text-gray-500 {
+        color: white !important;
+    }
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding-left: 0;
+
+    li {
+        a {
+            list-style: none;
+            text-decoration: none;
+            color: #fff;
+
+            &.active {
+                font-weight: bolder;
+                ;
+            }
+        }
+    }
+}
+
+.section-destinasi {
+    h2 {
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 18pt;
+        ;
+        color: #fff;
+    }
+
+    .search {
+        font-family: 'Assistant', sans-serif;
+    }
+
+    .btn {
+        height: 38px;
+    }
+}
+
+.destinasi-gallery {
+    img {
+        width: 75%;
+    }
+}
+
+.detail-destination {
+    figure {
+        a {
+            text-decoration: none;
+            padding: 0px 9px 0px 5px;
+        }
+    }
+
+    h2 {
+        font-family: 'Playfair Display';
+        color: white;
+    }
+
+    p {
+        padding-top: 10px;
+        color: white;
+        font-family: 'Assistant';
+    }
+}

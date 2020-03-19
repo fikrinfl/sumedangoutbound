@@ -1,0 +1,229 @@
+body {
+  background-color: black !important;
+  font-family: 'Assistant', sans-serif;
+}
+
+header {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  background-image: url("../images/kmptoga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0px 199px;
+}
+
+header .btn-warning {
+  background-color: yellow !important;
+}
+
+header .btn-warning:hover {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.kuning {
+  color: yellow !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0px;
+}
+
+.btn-login {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+.btn-login:hover {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.font-mont {
+  font-family: 'Montserrat', sans-serif !important;
+  color: black !important;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+}
+
+.section-popular-content {
+  margin-top: -450px;
+}
+
+.section-popular-content .card-travel {
+  min-height: 251px;
+  min-width: 247px;
+  background-color: white !important;
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .card-travel .travel-name-place {
+  font-size: 19px;
+  color: white;
+}
+
+.section-popular-content .card-travel .travel-button .btn-travel-details {
+  background-color: yellow !important;
+  color: gray !important;
+}
+
+.section-popular-content .card-travel .travel-button .btn-travel-details:hover {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.section-popular-content .popular-picture {
+  margin-top: -150px;
+}
+
+.section-stats {
+  background-color: white;
+  margin-top: -50px;
+  border-radius: 10px;
+  padding: 10px 10px 10px;
+}
+
+.section-stats .btn-cari {
+  width: 150px;
+  background-color: yellow !important;
+}
+
+.section-stats .btn-cari:hover {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.section-popular {
+  min-height: 660px;
+  padding: 60px 0px 423px;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  color: white !important;
+}
+
+.section-popular .section-popular-heading p {
+  color: #c9c9c9 !important;
+}
+
+.section-promotion {
+  min-height: 369px;
+  padding: 79px 0px 94px;
+  background-image: url(../images/promot_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 123px;
+}
+
+.section-promotion h2 {
+  font-family: 'Playfair Display', serif;
+  color: white !important;
+}
+
+.section-promotion p {
+  color: white !important;
+}
+
+.section-promotion .btn-help {
+  background-color: #7E7E7E;
+  color: white;
+}
+
+.section-promotion .btn-help:hover {
+  background-color: #303030;
+  color: white;
+}
+
+.section-promotion .btn-get-started {
+  background-color: yellow !important;
+  color: #575757 !important;
+  margin-left: 10px;
+}
+
+.section-promotion .btn-get-started:hover {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.section-footer h5 {
+  color: white;
+  font-size: 24px;
+}
+
+.section-footer li {
+  padding-top: 10px;
+}
+
+.section-footer a {
+  color: white !important;
+  font-size: 12px;
+}
+
+.section-footer .text-gray-500 {
+  color: white !important;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.breadcrumb li a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.breadcrumb li a.active {
+  font-weight: bolder;
+}
+
+.section-destinasi h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18pt;
+  color: #fff;
+}
+
+.section-destinasi .search {
+  font-family: 'Assistant', sans-serif;
+}
+
+.section-destinasi .btn {
+  height: 38px;
+}
+
+.destinasi-gallery img {
+  width: 75%;
+}
+
+.detail-destination figure a {
+  text-decoration: none;
+  padding: 0px 9px 0px 5px;
+}
+
+.detail-destination h2 {
+  font-family: 'Playfair Display';
+  color: white;
+}
+
+.detail-destination p {
+  padding-top: 10px;
+  color: white;
+  font-family: 'Assistant';
+}
+/*# sourceMappingURL=main.css.map */

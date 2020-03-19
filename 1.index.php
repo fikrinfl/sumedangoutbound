@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="libraries/owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libraries/owlcarousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Sumedang Outbond</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/frontend/images/ic_2.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link kuning active">HOME</a></li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link kuning">EVENT</a></li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link kuning">PACKAGE</a></li>
+                </ul>
+
+                <!-- Design Login HP -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        SIGN IN
+                    </button>
+                </form>
+
+                <!-- Design Login Desktop -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        SIGN IN
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Header -->
+    <header class="text-center">
+        <h5>Take A Break</h5>
+        <h1>
+            From Everday Life
+            <br>
+            and go to <b>Sumedang</b>
+        </h1>
+        <br>
+        <button class="btn btn-warning font-mont"><b>Explore Now!</b></button>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="section-stats text-center">
+                <h5>Where you go?</h5>
+                <form action="">
+                    <div class="row justify-content-center">
+                        <div class="form-group col-lg-3">
+                            <input type="text" class="form-control" placeholder="Destinasi">
+                        </div>
+                        <div class="form-group col-lg-3">
+                            <input type="date" class="form-control" placeholder="Destinasi">
+                        </div>
+                        <div class="form-group col-lg-3">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Tipe</option>
+                                <option>A</option>
+                                <option>B</option>
+                                <option>C</option>
+                                <option>D</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <button class="btn btn-cari">Cari</button>
+                        </div>
+                </form>
+            </section>
+        </div>
+
+        <section class="section-popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2><b>Sumedang Venue</b></h2>
+                        <br>
+                        <p>Something that you never try
+                            <br>
+                            before in this world</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-popular-content">
+            <div class="container">
+                <div class="owl-carousel owl-carousel-theme popular-picture">
+                    <div class="item row ">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card-travel text-center d-flex flex-column"
+                                style="background-image: url('images/toga.png');">
+                                <div class="travel-name-place">Kampung Toga</div>
+                                <div class="travel-button mt-auto">
+                                    <a href="#" class="btn btn-travel-details px-4">Lihat Venue</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item row ">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card-travel text-center d-flex flex-column"
+                                style="background-image: url('images/jatigede.png');">
+                                <div class="travel-name-place">Jati Gede</div>
+                                <div class="travel-button mt-auto">
+                                    <a href="#" class="btn btn-travel-details px-4">Lihat Venue</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item row ">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card-travel text-center d-flex flex-column"
+                                style="background-image: url('images/batudua.png');">
+                                <div class="travel-name-place">Batu Dua,
+                                    <br>
+                                    Paragliding
+                                </div>
+                                <div class="travel-button mt-auto">
+                                    <a href="#" class="btn btn-travel-details px-4">Lihat Venue</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item row ">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <div class="card-travel text-center d-flex flex-column"
+                                style="background-image: url('images/karuhun.png');">
+                                <div class="travel-name-place">Kampung Karuhun</div>
+                                <div class="travel-button mt-auto">
+                                    <a href="#" class="btn btn-travel-details px-4">Lihat Venue</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center section-promotion">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2><b>Discover Sumedang
+                                <br>
+                                with Our Guide
+                            </b></h2>
+                        <br>
+                        <p>Lakukan perjalanan, event, wisata keluarga bersama kami
+                            <br>
+                            dengan pelayanan terbaik dan memuaskan,</p>
+                        <br>
+                        <button class="btn btn-help">I Need Help</button>
+                        <button class="btn btn-get-started">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Akhir Main Content -->
+
+    <!-- Footer -->
+    <footer class="section-footer mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>Features</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Account</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refunds</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Rewards</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Company</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>Get Connected</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Sumedang, Jawa Barat, ID</a></li>
+                                <li><a href="#">Jl. Agkrek, Perumahan Putera Citra Lestari C2</a></li>
+                                <li><a href="#">0822 - 1778 - 4846</a></li>
+                                <li><a href="#">sumedangoutbound@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright Fullstack.id • All rights reserved • Made in Sumedang
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Javascript -->
+    <script src="libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/retina/retina.min.js"></script>
+    <script src="libraries/owlcarousel/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
